@@ -7,12 +7,3 @@ gnome_remote_desktop_systemd_enable:
 - gnome-remote-desktop.service
 gnome_remote_desktop_systemd_start:
 - gnome-remote-desktop.service
-
-gnome_remote_desktop:
-  user:
-  dconf:
-    enable: true
-    view_only: false
-  service:
-    enabled: true
-    state: started
