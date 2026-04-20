@@ -31,7 +31,7 @@
         state: directory
         owner: "{{ gnome_remote_desktop_user }}"
         group: "{{ gnome_remote_desktop_user }}"
-        mode: o=rwx,g=,o=rx
+        mode: u=rwx,g=,o=rx
 
     # key
     - name: Create private key (RSA, 4096 bits)
